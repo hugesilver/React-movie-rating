@@ -1,3 +1,4 @@
 # NomadCoders React for Beginners Course
 
-[https://nomadcoders.co/react-for-beginners]
+Course: [https://nomadcoders.co/react-for-beginners]
+Github Pages: [https://hugesilver.github.io/React-movie-rating/]
