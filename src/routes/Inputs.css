@@ -1,0 +1,52 @@
+.star {
+  position: relative;
+  font-size: 43pt;
+  color: #dddddd;
+  user-select: none;
+}
+
+.star input {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.star span{
+  width: 0;
+  position: absolute; 
+  left: 0;
+  color: #fcd303;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.starWrap:hover .star span{
+  color: #ffe77a;
+}
+
+.starWrap{
+  display: block;
+  text-align: center;
+}
+
+.sortBy{
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sortBy label{
+  user-select: none;
+  cursor: pointer;
+  font-size: 17pt;
+  padding: 0 10px;
+}
+
+.sortBy input{
+  width: 17px;
+  height: 17px;
+  line-height: 17pt;
+}

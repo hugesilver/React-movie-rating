@@ -20,6 +20,7 @@ function Detail(){
       <div>
         <img src={movie.medium_cover_image} alt={movie.title} />
         <h1>{movie.title}</h1>
+        <h2>{movie.rating}</h2>
         <p>Genres: {movie.genres.join(", ")}</p>
         <p>Description: {movie.description_intro}</p>
       </div>

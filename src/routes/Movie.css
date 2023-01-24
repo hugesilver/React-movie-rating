@@ -1,23 +1,8 @@
-.loadingBG{
-  background-color: #333333;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.loading{
-  width: 100px;
-  height: 100px;
-  border: 7px solid rgba(255,255,255,.3);
-  border-radius: 50%;
-  border-top-color: #fff;
-  animation: spin 1s ease-in-out infinite;
-  -webkit-animation: spin 1s ease-in-out infinite;
-}
-@keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
-}
-@keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
+.logo{
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  user-select: none;
 }
