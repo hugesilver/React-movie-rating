@@ -51,6 +51,7 @@ function Home(){
         <div>
           <img src={logo} alt="logo" className="logo" />
           <div className="starWrap">
+            <span style={{fontSize: "28pt", paddingRight: "5px"}}>Minimum Rating:&nbsp;</span>
             <span className="star">
               ★★★★★
               <span style={{width: `${stars * 10}%`}}>
