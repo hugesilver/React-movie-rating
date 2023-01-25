@@ -23,7 +23,7 @@ function Home(){
   `;
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
-  const [stars, setStars] = useState(0);
+  const [stars, setStars] = useState(8);
   const [sortby, setSort] = useState("rating")
   const star = (event) => {
     setStars(event.target.value);
